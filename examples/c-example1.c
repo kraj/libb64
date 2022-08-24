@@ -83,7 +83,7 @@ char* decode(const char* input)
 }
 
 
-int main()
+int main(int argc, char** argv)
 {
 	const char* input = "hello world";
 	char* encoded;
